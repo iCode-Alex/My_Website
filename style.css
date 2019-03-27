@@ -131,10 +131,12 @@ footer {
 	font-size: 10px;
 	margin-bottom: auto;
 	margin-top: auto;
+    color: white;
 	padding: 5px;
 	text-align: left;
 }
 
 #footer-email {
 	text-decoration: none;
+	color: slategray;
 }
