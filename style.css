@@ -3,34 +3,56 @@ body {
 }
 
 header {
-	height: 100px;
+	height: 70px;
+	background-image: url("orange-belt-1.jpg");
 }
 
 #iCodeLogo {
-	padding: 15px;
-	height: 75px;
+	padding-top: 5px;
+	padding-left: 5%;
+	height: 70px;
 	float: left;
 }
 
+#obLogo {
+	display: block;
+	height: 300px;
+	margin: auto;
+}
+
 nav {
-	position: relative;
+	position: block;
 	text-align: center;
 	width: 70%;
-	top: 40%;
-	margin-left: auto;
-	margin-right: auto;
+	height: 100%;
 }
 
 .nav-a {
-	margin-left: 4em;
+	position: relative;
+	top:30%;
+	margin-right: 2.5em;
 	text-decoration: none;
 	color: #696969;
-	font-size: 14px;
-	font-family: arial;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.nav-a:hover{
+	color: black;
+}
+
+#homeIcon {
+	position: relative;
+	margin-right: 0.5em;
+	top: 35%;
+	height: 30px;
+	margin-left: 2.5em;
 }
 
 #body-wrapper {
-	padding: 3em;
+	padding-top: 3em;
+	padding-left: 12em;
+	padding-right: 12em;
 	min-height: 100%;
 }
 
@@ -47,26 +69,51 @@ nav {
 
 aside {
 	float: right;
-	width: 30%;
+	width: 25%;
 	height: 50em;
 	text-align: center;
-	background-color: #525d6f;
+	background-image: url("orange-belt-1.jpg");
 	color: white;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: -10px 10px 10px grey;
+}
+
+.sprint {
+	text-decoration: underline;
+	text-align: center;
+	padding-right: 50%;
+}
+
+.day {
+	text-align: center;
+	list-style-position: inside;
+	padding-right: 50%;
+	margin-top: 0.5em;
 }
 
 section {
 	float: left;
 	width: 60%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#ob-motto {
+	text-align: center;
+	font-weight: bold;
+	color: rgba(255,125,66,0.75);
 }
 
 article {
+	padding-top: 3em;
 	float: left;
 	width: 60%;
+	font-family: 'Roboto', sans-serif;
 }
 
 #section-h2 {
 	text-align: center;
+	font-weight: bold;
+	color: #b27300;
 }
 
 footer {
@@ -80,7 +127,7 @@ footer {
 }
 
 .footer-p {
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-size: 10px;
 	margin-bottom: auto;
 	margin-top: auto;
